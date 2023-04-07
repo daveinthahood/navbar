@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Navbar</title>
+
+    </head>
+    
+    <body>
+<!--creo la navbar in un div usando una lista non ordinata-->
+
+        <div class="navbar">
+
+            <nav>
+              <span class="title"> Navbar </span>
+              
+              <span class="link_navbar">
+                <ul>
+                    <li><a href="www.sitoprova.com/Home"> Home </a></li>
+                    <li><a href="www.sitoprova.com/link"> Link </a></li>
+                       
+              </span>
+<!-- Creo il dropdown -->
+              <span class="dropdownandbuttom">
+                <li>
+                 <form>
+                  <label for="navbardropdown"></label>
+                   <select name="navbardropdown" id="drop">
+                    <option value="Dropdown"> Dropdown </option>
+                    <option value="ciao"> ciao</option>
+                   </select>
+                 </form>   
+                </li>
+<!-- Bottone disabilitato -->
+                <li><button class="disabilitato" disabled> Bottone</button></li>            
+              </span>
+            </ul>
+
+
+<!-- Ricerca -->
+            <span class="search_bar">
+             <form>
+              <input type="text" placeholder="Search">
+              <label for="search_bar"><button> Search </button> </label>
+             </form>
+            </span>
+          </nav>
+        </div>
+    </body>
+</html>
